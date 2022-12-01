@@ -7,7 +7,8 @@ on:push
 
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ master ]
+    include:
+    - '*'
   pull_request:
     branches: [ master ]
 
